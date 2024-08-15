@@ -27,6 +27,7 @@ include_once 'inc/header.php';
       <tbody>
         <?php
         // Luodaan yhteys tietokantaan ja haetaan asiakastiedot
+        // testi push
 
         require_once 'inc/database.php';
         $sql = "SELECT * FROM asiakas";
